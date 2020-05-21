@@ -48,12 +48,12 @@ The following software is required:
 ### 5.2. Development Environment
 In order to develop and build this repo you need to do the following:
 1. Clone this repository and the following repositories and place them in the same folder:
- - BMCoreUI
- - BMView
- - BMCollectionView
- - BMPresentationController
- - BMMenu
- - BMCodeHost
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI)
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController)
+ - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost)
 2. Open `package.json` and configure the `thingworxServer`, `thingworxUser` and `thingworxPassword` as needed.
 3. In `Gulpfile.js`, ensure that the folder names match.
 4. Run `npm install` for each of the downloaded repos. This will install the required dependencies for each project.
