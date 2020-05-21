@@ -1,0 +1,44 @@
+{
+    "name": "BMCoreUIWidgets",
+    "packageName": "BMCoreUIWidgets",
+    "moduleName": "BMCoreUIWidgets",
+    "version": "2.6.0-beta.5",
+    "description": "A collection of reusable UI classes.",
+    "thingworxServer": "http://localhost:8016",
+    "thingworxUser": "Administrator",
+    "thingworxPassword": "admin",
+    "author": "Thingworx RoIcenter",
+    "minimumThingWorxVersion": "6.0.0",
+    "homepage": "https://github.com/ptc-iot-sharing/BMCoreUIWidgets",
+    "autoUpdate": {
+        "giteaURL": "https://api.github.com/repos/ptc-iot-sharing/BMCoreUIWidgets/releases/latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ptc-iot-sharing/BMCoreUIWidgets.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gulp",
+        "buildProduction": "gulp --p",
+        "upload": "gulp upload",
+        "uploadProduction": "gulp upload --p"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.0.0-beta.46",
+        "@babel/preset-env": "^7.0.0-beta.46",
+        "@types/jquery": "^3.3.1",
+        "@types/node": "^8.10.11",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-terser": "^1.2.0",
+        "gulp-zip": "^5.0.0",
+        "gulp-babel": "^8.0.0",
+        "babel-plugin-remove-import-export": "^1.1.0",
+        "delete-empty": "^3.0.0",
+        "del": "^5.0.0",
+        "request": "^2.85.0",
+        "xml2js": "^0.4.19"
+    }
+}

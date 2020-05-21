@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><Entities>
+  <ExtensionPackages>
+    <ExtensionPackage name="BMCoreUIWidgets" packageVersion="2.6.0" description="Contains Core UI and all its dependent widgets." vendor="Bogdan Mihaiciuc" minimumThingWorxVersion="6.0.0" buildNumber="{&quot;giteaURL&quot;: &quot;https://api.github.com/repos/ptc-iot-sharing/BMCoreUIWidgets/releases/latest&quot;}"/>
+  </ExtensionPackages>
+  <Widgets>
+    <Widget name="BMCoreUIWidgets">
+      <UIResources>
+        <FileResource type="CSS" file="ide.css" description="" isDevelopment="true" isRuntime="false"/>
+        <FileResource type="JS" file="ide.js" description="" isDevelopment="true" isRuntime="false"/>
+        <FileResource type="CSS" file="runtime.css" description="" isDevelopment="false" isRuntime="true"/>
+        <FileResource type="JS" file="runtime.js" description="" isDevelopment="false" isRuntime="true"/>
+      </UIResources>
+    </Widget>
+  </Widgets>
+</Entities>
