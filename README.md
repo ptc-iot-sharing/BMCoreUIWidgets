@@ -20,15 +20,52 @@ This repository contains the build script required to merge and package the Core
 
 # 3. About
 
-This package is made up of the following individual extensions that you should **remove prior to installing this package**:
- - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI)
- - [BMView](https://github.com/BogdanMihaiciuc/BMView)
- - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView)
- - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController)
- - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu)
- - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost)
-
+This package is made up of the following individual extensions that you should **remove prior to installing this package**, if you have the standalone versions. 
 These packages are still available and can be built and imported individually if compatibility with the `Collection` widget is not required.
+
+## [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI)
+
+A javascript library containing the base functionality upon which the widgets in this package are built. Core UI does not require Thingworx and can be included in any front-end project via npm.
+
+## [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost)
+
+![BMCodeHost](doc/code-host.png)
+
+BMCodeHost is the ultimate tool in a mashup builder's arsenal and likely the most impactful widget in the package, giving developers utmost freedom in developing their applications. It offers a set of widgets that provide a very simple, yet very powerful capability - it lets developers add their own JavaScript, TypeScript or CSS code to a mashup, without any restrictions on what is allowed and what is not.
+
+It also provides a layer that allows the custom code to very easily interact with the rest of the mashup, by specifing properties, events and services just like any other widget as well as various methods to obtain references to the other widgets in the mashup.
+
+To make development as comfortable as possible, Code Host relies on the [Monaco Editor](https://github.com/ptc-iot-sharing/MonacoEditorTWX) extension to provide an advanced code editor with many useful features.
+
+## [BMView](https://github.com/BogdanMihaiciuc/BMView)
+
+![BMView](doc/view.png)
+
+BMView brings constraint-based layouts to Thingworx, enabling application developers to create large and complex layouts based on easy to understand rules that are established between the various application elements.
+
+It includes its own custom-built layout editor with a lot of options for positioning and sizing page elements as well as support for responsive layouts and support for dynamically specifying and changing the various layout rules at runtime.
+
+## [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView)
+
+![BMCollectionView](doc/collection-view.png)
+
+BMCollectionView is a widget whose primary goal is to allow mashup developers to display collections of items with arbitrary content in a scrolling container. Collection View is optimized such that it should have good performance characteristics even when containing hundreds of thousands of items.
+
+Additionally, it offers an impressive number of customization options which are broken down into categories and explained individually in a custom configuration window to make setup easier. Because of this flexibility, collection view can scale from being used as a simple list of items to being used as an automatic UI builder for significant portions of your Thingworx application.
+
+Finally, it supports advanced features such as menus, data manipulation, drag & drop and a set of controller widgets that can be used to further control many of the standard behaviours and elements, making it a tool that can fit a large number of use cases.
+
+## [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController)
+
+![BMPresentationController](doc/presentation-controller.png)
+
+The BMPresentationController widgets give developers the ability to display their mashups in window or popover controls. Windows can also be configured such that they can be moved and resized freely. It is also possible to have multiple windows open and interact between them, for example via collection view's drag & drop functionality.
+
+## [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu)
+
+![BMMenu](doc/menu.png)
+
+A simple yet useful widget allowing developers to create context menus available via right clicks or long taps attached to widgets or specific areas of the page.
 
 # 4. Usage
 
