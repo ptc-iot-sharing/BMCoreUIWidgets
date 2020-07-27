@@ -1,3 +1,8 @@
+# 2.6 beta 8
+
+This release includes:
+ - Support for Thingworx 9
+
 # 2.6 beta 7
 
 This release corresponds to Core UI v2.6 beta 7.
