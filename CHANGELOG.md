@@ -1,3 +1,7 @@
+# 2.6
+
+Initial release
+
 # 2.6 beta 8
 
 This release includes:
