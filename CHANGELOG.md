@@ -1,3 +1,13 @@
+# 2.6.3
+
+This release corresponds to Core UI v.2.6.3 and includes bug fixes.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.3)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMMenu/releases/tag/2.6.3)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.3)
+
 # 2.6.1
 
 This release corresponds to Core UI v2.6.1 and includes bug fixes.

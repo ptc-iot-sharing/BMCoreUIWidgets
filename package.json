@@ -2,7 +2,7 @@
     "name": "BMCoreUIWidgets",
     "packageName": "BMCoreUIWidgets",
     "moduleName": "BMCoreUIWidgets",
-    "version": "2.6.1",
+    "version": "2.6.3",
     "description": "A collection of reusable UI classes.",
     "thingworxServer": "http://localhost:8016",
     "thingworxUser": "Administrator",
