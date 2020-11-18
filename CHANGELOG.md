@@ -1,3 +1,11 @@
+# 2.6.4
+
+This release includes bug fixes.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.4)
+
 # 2.6.3
 
 This release corresponds to Core UI v.2.6.3 and includes bug fixes.
