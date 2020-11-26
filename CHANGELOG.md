@@ -1,3 +1,11 @@
+# 2.6.6
+
+This release includes bug fixes.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.6)
+
 # 2.6.5
 
 This release includes bug fixes.
