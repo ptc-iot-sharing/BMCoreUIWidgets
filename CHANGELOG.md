@@ -1,10 +1,22 @@
+# 2.6.7
+
+This release includes a fix for a bug that could prevent the list of widgets from loading correctly when using Thingworx 9.1.
+
+Additionally, it contains improvements for Collection View that make it easier to target various cells with CSS rules based on their type.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.7)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.7)
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.6.7)
+
 # 2.6.6
 
 This release includes bug fixes.
 
 More detailed information about the contents of this release is available on the matching releases pages for:
 
- - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.6)
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.6)
 
 # 2.6.5
 
