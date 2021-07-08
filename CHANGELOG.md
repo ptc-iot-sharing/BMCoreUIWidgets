@@ -1,3 +1,12 @@
+# 2.6.8
+
+This release includes bug fixes.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.8)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.6.8)
+
 # 2.6.7
 
 This release includes a fix for a bug that could prevent the list of widgets from loading correctly when using Thingworx 9.1.
