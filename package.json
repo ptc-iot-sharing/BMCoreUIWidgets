@@ -30,14 +30,14 @@
         "@babel/preset-env": "^7.0.0-beta.46",
         "@types/jquery": "^3.3.1",
         "@types/node": "^8.10.11",
+        "babel-plugin-remove-import-export": "^1.1.0",
+        "del": "^5.0.0",
+        "delete-empty": "^3.0.0",
         "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
         "gulp-concat": "^2.6.1",
         "gulp-terser": "^1.2.0",
         "gulp-zip": "^5.0.0",
-        "gulp-babel": "^8.0.0",
-        "babel-plugin-remove-import-export": "^1.1.0",
-        "delete-empty": "^3.0.0",
-        "del": "^5.0.0",
         "request": "^2.85.0",
         "xml2js": "^0.4.19"
     }
