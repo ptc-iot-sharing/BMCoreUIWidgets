@@ -31,7 +31,7 @@ A javascript library containing the base functionality upon which the widgets in
 
 ![BMCodeHost](doc/code-host.png)
 
-BMCodeHost is the ultimate tool in a mashup builder's arsenal and likely the most impactful widget in the package, giving developers utmost freedom in developing their applications. It offers a set of widgets that provide a very simple, yet very powerful capability - it lets developers add their own JavaScript, TypeScript or CSS code to a mashup, without any restrictions on what is allowed and what is not.
+BMCodeHost is the ultimate tool in a mashup builder's arsenal and likely the most impactful widget in the package, giving developers complete freedom in developing their applications. It offers a set of widgets that provide a very simple, yet very powerful capability - it lets developers add their own JavaScript, TypeScript or CSS code to a mashup, without any restrictions on what is allowed and what is not.
 
 It also provides a layer that allows the custom code to very easily interact with the rest of the mashup, by specifing properties, events and services just like any other widget as well as various methods to obtain references to the other widgets in the mashup.
 
