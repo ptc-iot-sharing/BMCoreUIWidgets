@@ -1,3 +1,13 @@
+# 2.6.9
+
+This release includes bug fixes. It also adds support for using automatic cell sizes in collection view with mashups that don't use `BMView` for their layout.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.9)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.9)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.6.9)
+
 # 2.6.8
 
 This release includes bug fixes.
