@@ -1,3 +1,13 @@
+# 2.6.10
+
+This release includes bug fixes. It also adds support for specifying a custom edge spacing for the popover controller widget.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.10)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.6.10)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.6.10)
+
 # 2.6.9
 
 This release includes bug fixes. It also adds support for using automatic cell sizes in collection view with mashups that don't use `BMView` for their layout.
@@ -5,7 +15,7 @@ This release includes bug fixes. It also adds support for using automatic cell s
 More detailed information about the contents of this release is available on the matching releases pages for:
 
  - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.9)
- - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.9)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.6.9)
  - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.6.9)
 
 # 2.6.8
