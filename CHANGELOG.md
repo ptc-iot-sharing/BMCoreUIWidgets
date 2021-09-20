@@ -1,3 +1,13 @@
+# 2.7
+
+This release includes a new `Typescript Class` widget and bug fixes.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.7.0)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.7.0)
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.7.0)
+
 # 2.6.10
 
 This release includes bug fixes. It also adds support for specifying a custom edge spacing for the popover controller widget.
