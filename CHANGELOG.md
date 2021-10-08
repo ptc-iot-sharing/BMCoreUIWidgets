@@ -1,3 +1,12 @@
+# 2.7.1
+
+This release includes bug fixes for the code host widget.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.7.1)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.7.1)
+
 # 2.7
 
 This release includes a new `Typescript Class` widget and bug fixes.
