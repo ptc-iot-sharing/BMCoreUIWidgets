@@ -45,12 +45,29 @@ async function cleanBuildDir() {
  * Builds all subprojects.
  */
 async function buildAll() {
+    // Build core ui first, if specified
     for (const key in subProjects) {
-        console.log(`Building sub-project ${key}...`);
-        await new Promise(resolve => {
-            spawn('npm', ['run', 'build'], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
-        });
+        if (key == 'BMCoreUI') {
+            console.log(`Building sub-project ${key}...`);
+            await new Promise(resolve => {
+                spawn('npm', ['run', 'build'], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
+            });
+            break;
+        }
     }
+
+    // Then build everything else in parallel
+    const promises = [];
+    for (const key in subProjects) {
+        if (key == 'BMCoreUI') continue;
+
+        console.log(`Building sub-project ${key}...`);
+        promises.push(new Promise(resolve => {
+            spawn('npm', ['run', 'build'], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
+        }));
+    }
+
+    await Promise.all(promises);
 }
 
 /**
