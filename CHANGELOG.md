@@ -10,7 +10,7 @@ In addition to bug fixes, this release primarily adds keyboard support to varyin
 
 More detailed information about the contents of this release is available on the matching releases pages for:
 
- - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.0)
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.1)
  - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.0)
  - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.8.0)
  - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.0)
