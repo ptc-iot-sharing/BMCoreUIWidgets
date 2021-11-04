@@ -1,3 +1,21 @@
+# 2.8.0
+
+Core UI Widgets will now build all sub-projects after core ui in parallel to improve build times.
+
+In addition to bug fixes, this release primarily adds keyboard support to varying degrees on some of the widgets in the package:
+ - For collection view, it is now possible to highlight and select cells using the arrow keys and respond to the spacebar and return keys being pressed.
+ - For presentation controllers, it is now possible to dismiss them using the escape keys.
+ - For menus, the entries can now be navigated using the arrow keys and selected using space or return.
+ - Additionally, a new `Keyboard Shortcut Controller` widget is now available that allows creating keyboard shortcuts and assingning them to various widgets or the entire page.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.0)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.0)
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.8.0)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.0)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.8.0)
+
 # 2.7.1
 
 This release includes bug fixes for the code host widget.
@@ -5,7 +23,7 @@ This release includes bug fixes for the code host widget.
 More detailed information about the contents of this release is available on the matching releases pages for:
 
  - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.7.1)
- - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.7.1)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.7.1)
 
 # 2.7
 
@@ -14,7 +32,7 @@ This release includes a new `Typescript Class` widget and bug fixes.
 More detailed information about the contents of this release is available on the matching releases pages for:
 
  - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.7.0)
- - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.7.0)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.7.0)
  - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.7.0)
 
 # 2.6.10
@@ -24,7 +42,7 @@ This release includes bug fixes. It also adds support for specifying a custom ed
 More detailed information about the contents of this release is available on the matching releases pages for:
 
  - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.6.10)
- - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCoreHost/releases/tag/2.6.10)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.6.10)
  - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.6.10)
 
 # 2.6.9
