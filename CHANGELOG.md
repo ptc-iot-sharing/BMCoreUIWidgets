@@ -1,3 +1,12 @@
+# 2.8.2
+
+This release contains bug fixes and support for [monaco script editor v 1.23](https://github.com/ptc-iot-sharing/MonacoEditorTWX/releases/tag/v1.23.0).
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.2)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.2)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.2)
 # 2.8.0
 
 Core UI Widgets will now build all sub-projects after core ui in parallel to improve build times.
