@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><Entities>
   <ExtensionPackages>
-    <ExtensionPackage name="BMCoreUIWidgets" packageVersion="2.8.0" description="Contains Core UI and all its dependent widgets." vendor="Bogdan Mihaiciuc" minimumThingWorxVersion="6.0.0" buildNumber="{&quot;giteaURL&quot;: &quot;https://api.github.com/repos/ptc-iot-sharing/BMCoreUIWidgets/releases/latest&quot;}"/>
+    <ExtensionPackage name="BMCoreUIWidgets" packageVersion="2.8.2" description="Contains Core UI and all its dependent widgets." vendor="Bogdan Mihaiciuc" minimumThingWorxVersion="6.0.0" buildNumber="{&quot;giteaURL&quot;: &quot;https://api.github.com/repos/ptc-iot-sharing/BMCoreUIWidgets/releases/latest&quot;}"/>
   </ExtensionPackages>
   <Widgets>
     <Widget name="BMCoreUIWidgets">
