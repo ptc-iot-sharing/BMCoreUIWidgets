@@ -1,3 +1,14 @@
+# 2.8.3
+
+This release includes bug fixes and minor improvements.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.3)
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.8.3)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.8.3)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.3)
+
 # 2.8.2
 
 This release contains bug fixes and support for [monaco script editor v 1.23](https://github.com/ptc-iot-sharing/MonacoEditorTWX/releases/tag/v1.23.0).
