@@ -2,7 +2,7 @@
     "name": "BMCoreUIWidgets",
     "packageName": "BMCoreUIWidgets",
     "moduleName": "BMCoreUIWidgets",
-    "version": "2.8.2",
+    "version": "2.8.3",
     "description": "A collection of reusable UI classes.",
     "thingworxServer": "http://localhost:8015",
     "thingworxUser": "Administrator",
@@ -20,9 +20,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "gulp",
-        "buildProduction": "gulp --p",
+        "buildDebug": "gulp buildDebug",
         "upload": "gulp upload",
-        "uploadProduction": "gulp upload --p"
+        "uploadDebug": "gulp uploadDebug"
     },
     "license": "MIT",
     "devDependencies": {
