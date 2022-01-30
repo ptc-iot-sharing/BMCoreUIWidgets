@@ -17,7 +17,7 @@ const { spawn } = require('child_process');
 const request = require('request');
 
 const packageJson = require('./package.json');
-const zipName = `${packageJson.packageName}-min-${packageJson.version}.zip`;
+let zipName = `${packageJson.packageName}-min-${packageJson.version}.zip`;
 
 const subProjects = {
     'BMCoreUI': '../BMCoreUI',
@@ -26,6 +26,11 @@ const subProjects = {
     'BMMenu': '../BMMenu',
     'BMPresentationController': '../BMPresentationController',
     'BMView': '../BMView'
+}
+
+function zipNameDebug(cb) {
+    zipName = `${packageJson.packageName}-dev-${packageJson.version}.zip`;
+    cb();
 }
 
 /**
@@ -45,12 +50,23 @@ async function cleanBuildDir() {
  * Builds all subprojects.
  */
 async function buildAll() {
+    await buildAllWithCommand('build');
+}
+
+/**
+ * Builds all subprojects without optimization.
+ */
+async function buildAllDebug() {
+    await buildAllWithCommand('buildDebug');
+}
+
+async function buildAllWithCommand(command) {
     // Build core ui first, if specified
     for (const key in subProjects) {
         if (key == 'BMCoreUI') {
             console.log(`Building sub-project ${key}...`);
             await new Promise(resolve => {
-                spawn('npm', ['run', 'build'], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
+                spawn('npm', ['run', command], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
             });
             break;
         }
@@ -63,7 +79,7 @@ async function buildAll() {
 
         console.log(`Building sub-project ${key}...`);
         promises.push(new Promise(resolve => {
-            spawn('npm', ['run', 'build'], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
+            spawn('npm', ['run', command], {cwd: subProjects[key], stdio: 'inherit', shell: true}).on('close', resolve);
         }));
     }
 
@@ -227,6 +243,8 @@ async function upload() {
 }
 
 exports.default = series(cleanBuildDir, buildAll, copyAll, mergeAll, createZip);
+exports.buildDebug = series(zipNameDebug, cleanBuildDir, buildAllDebug, copyAll, mergeAll, createZip);
 exports.merge = series(cleanBuildDir, copyAll, mergeAll, createZip);
 
 exports.upload = series(cleanBuildDir, buildAll, copyAll, mergeAll, createZip, upload);
+exports.uploadDebug = series(zipNameDebug, cleanBuildDir, buildAllDebug, copyAll, mergeAll, createZip, upload);
