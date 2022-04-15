@@ -122,5 +122,5 @@ To build the extension and upload it to Thingworx, run `gulp upload` in the root
 Deployment to Thingworx is part of the build process as explained above. Alternatively, you can manually install the extension that is generated in the zip folder in the root of the project.
 
 # 6. License
-
+This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite.
 [MIT License](LICENSE)
