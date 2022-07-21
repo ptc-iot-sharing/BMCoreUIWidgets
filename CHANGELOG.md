@@ -1,3 +1,11 @@
+# 2.8.4
+
+This release fixes an issue that prevented the `Loaded` event from triggering on Mashups when using `Presentation Controller` or `Collection View` on Thingworx 9.2.8 or 9.3.3 and newer.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.4)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.4)
+
 # 2.8.3
 
 This release includes bug fixes and minor improvements.
