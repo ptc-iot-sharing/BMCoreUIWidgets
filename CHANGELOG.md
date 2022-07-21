@@ -1,3 +1,18 @@
+# 2.8.5
+
+In addition to bug fixes, this release adds a number of new features:
+ - Adds new properties to Collection View to make it possible to implement infinite scrolling.
+ - It also allows popovers to appear to the left or right of their anchors in addition to above or below.
+ - Adds the ability to define and use submenus in menus.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.5)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.5)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.5)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.8.5)
+ - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu/releases/tag/2.8.5)
+
 # 2.8.3
 
 This release includes bug fixes and minor improvements.
