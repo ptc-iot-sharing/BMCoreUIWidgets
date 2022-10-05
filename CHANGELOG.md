@@ -1,4 +1,4 @@
-# 2.8.5
+# 2.9
 
 In addition to bug fixes, this release adds a number of new features:
  - Adds new properties to Collection View to make it possible to implement infinite scrolling.
@@ -7,11 +7,11 @@ In addition to bug fixes, this release adds a number of new features:
 
 More detailed information about the contents of this release is available on the matching releases pages for:
 
- - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.8.5)
- - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.8.5)
- - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.8.5)
- - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.8.5)
- - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu/releases/tag/2.8.5)
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.9.0)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.9.0)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.9.0)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.9.0)
+ - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu/releases/tag/2.9.0)
 
 # 2.8.3
 
