@@ -1,3 +1,18 @@
+# 2.9
+
+In addition to bug fixes, this release adds a number of new features:
+ - Adds new properties to Collection View to make it possible to implement infinite scrolling.
+ - It also allows popovers to appear to the left or right of their anchors in addition to above or below.
+ - Adds the ability to define and use submenus in menus.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.9.0)
+ - [BMCollectionView](https://github.com/BogdanMihaiciuc/BMCollectionView/releases/tag/2.9.0)
+ - [BMPresentationController](https://github.com/BogdanMihaiciuc/BMPresentationController/releases/tag/2.9.0)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.9.0)
+ - [BMMenu](https://github.com/BogdanMihaiciuc/BMMenu/releases/tag/2.9.0)
+
 # 2.8.4
 
 This release fixes an issue that prevented the `Loaded` event from triggering on Mashups when using `Presentation Controller` or `Collection View` on Thingworx 9.2.8 or 9.3.3 and newer.
