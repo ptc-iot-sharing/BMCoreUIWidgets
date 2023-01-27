@@ -1,3 +1,12 @@
+# 2.9.2
+
+This release includes bug fixes and minor improvements.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMCoreUI](https://github.com/BogdanMihaiciuc/BMCoreUI/releases/tag/2.9.2)
+ - [BMCodeHost](https://github.com/BogdanMihaiciuc/BMCodeHost/releases/tag/2.9.2)
+
 # 2.9.1
 
 This release includes bug fixes and minor improvements.
