@@ -1,3 +1,11 @@
+# 2.9.3
+
+This release includes bug fixes for the `Scroll View` widget.
+
+More detailed information about the contents of this release is available on the matching releases pages for:
+
+ - [BMView](https://github.com/BogdanMihaiciuc/BMView/releases/tag/2.9.3)
+
 # 2.9.2
 
 This release includes bug fixes and minor improvements.
